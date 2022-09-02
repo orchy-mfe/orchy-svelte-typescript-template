@@ -29,7 +29,7 @@
 </main>
 
 <style>
-  .logo:first-child {
+  .logo {
     height: 6em;
     padding: 1.5em;
     will-change: filter;
