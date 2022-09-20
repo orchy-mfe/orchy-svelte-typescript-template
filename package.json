@@ -12,6 +12,7 @@
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
+    "@orchy-mfe/models": "^0.0.1",
     "@sveltejs/vite-plugin-svelte": "^1.0.7",
     "@testing-library/svelte": "^3.2.1",
     "@tsconfig/svelte": "^3.0.0",

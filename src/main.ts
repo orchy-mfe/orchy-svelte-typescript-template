@@ -4,9 +4,9 @@ import App from './App.svelte'
 
 let app
 
-const retrieveContainer = (props: QiankunProps) => (props.container || document).querySelector('#app')
+const retrieveContainer = (props?: QiankunProps) => (props?.container || document).querySelector('#app')
 
-const render = (props = {}) => {
+const render = (props?: QiankunProps) => {
   app = new App({
     target: retrieveContainer(props),
     props
@@ -25,7 +25,7 @@ renderWithQiankun({
 })
 
 if (!qiankunWindow.__POWERED_BY_QIANKUN__) {
-  render({})
+  render()
 }
 
 export default app
