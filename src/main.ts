@@ -1,4 +1,4 @@
-import {renderWithQiankun, qiankunWindow, type QiankunProps} from 'vite-plugin-qiankun/dist/helper'
+import {renderWithQiankun, qiankunWindow, QiankunProps} from 'vite-plugin-qiankun/dist/helper'
 import './app.css'
 import App from './App.svelte'
 
