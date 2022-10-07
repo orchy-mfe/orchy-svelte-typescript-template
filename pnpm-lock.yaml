@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@orchy-mfe/models': ^0.0.1
-  '@sveltejs/vite-plugin-svelte': ^1.0.8
+  '@sveltejs/vite-plugin-svelte': ^1.0.9
   '@testing-library/svelte': ^3.2.2
   '@tsconfig/svelte': ^3.0.0
   '@typescript-eslint/eslint-plugin': ^5.39.0
@@ -27,7 +27,7 @@ specifiers:
 
 devDependencies:
   '@orchy-mfe/models': 0.0.1
-  '@sveltejs/vite-plugin-svelte': 1.0.8_svelte@3.50.1+vite@3.1.6
+  '@sveltejs/vite-plugin-svelte': 1.0.9_svelte@3.50.1+vite@3.1.6
   '@testing-library/svelte': 3.2.2_svelte@3.50.1
   '@tsconfig/svelte': 3.0.0
   '@typescript-eslint/eslint-plugin': 5.39.0_xyciw6oqjoiiono4dhv3uhn5my
@@ -449,8 +449,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.8_svelte@3.50.1+vite@3.1.6:
-    resolution: {integrity: sha512-1xkVTB4pm6zuign858FzVYE9Fdw9MQBOlxrdd85STV0NvTDmcofcRpcrK+zcIyT8SZ2dseHLu8hvDwzssF6RfA==}
+  /@sveltejs/vite-plugin-svelte/1.0.9_svelte@3.50.1+vite@3.1.6:
+    resolution: {integrity: sha512-+SDrAnT7TDi8sdj4OfD2SC4s9DNrpNVBrue8fT2PmKks9Ddu0JIfSeX91wXZb/1xHz4EkGb+rli8GTRI0yGOjg==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
       diff-match-patch: ^1.0.5
@@ -464,7 +464,7 @@ packages:
       debug: 4.3.4
       deepmerge: 4.2.2
       kleur: 4.1.5
-      magic-string: 0.26.3
+      magic-string: 0.26.6
       svelte: 3.50.1
       svelte-hmr: 0.15.0_svelte@3.50.1
       vite: 3.1.6
@@ -2537,8 +2537,8 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /magic-string/0.26.3:
-    resolution: {integrity: sha512-u1Po0NDyFcwdg2nzHT88wSK0+Rih0N1M+Ph1Sp08k8yvFFU3KR72wryS7e1qMPJypt99WB7fIFVCA92mQrMjrg==}
+  /magic-string/0.26.6:
+    resolution: {integrity: sha512-6d+3bFybzyQFJYSoRsl9ZC0wheze8M1LrQC7tNMRqXR4izUTDOLMd9BtSuExK9iAukFh+s5K0WAhc/dlQ+HKYA==}
     engines: {node: '>=12'}
     dependencies:
       sourcemap-codec: 1.4.8
