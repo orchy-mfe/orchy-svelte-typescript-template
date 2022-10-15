@@ -13,7 +13,7 @@ specifiers:
   eslint-plugin-prettier: ^4.2.1
   eslint-plugin-svelte3: ^4.0.0
   jsdom: ^20.0.1
-  rollup-plugin-visualizer: ^5.8.2
+  rollup-plugin-visualizer: ^5.8.3
   rxjs: ^7.5.7
   svelte: ^3.52.0
   svelte-check: ^2.9.2
@@ -42,7 +42,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_hvbqyfstm4urdpm6ffpwfka4e4
   eslint-plugin-svelte3: 4.0.0_2h6d4ngklmojchucosx7yvuw7m
   jsdom: 20.0.1
-  rollup-plugin-visualizer: 5.8.2
+  rollup-plugin-visualizer: 5.8.3
   svelte: 3.52.0
   svelte-check: 2.9.2_g3nduws7byzpjj3thiejpyd2e4
   svelte-navigator: 3.2.2_besnmoibwkhwtentvwuriss7pa
@@ -2991,12 +2991,12 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-visualizer/5.8.2:
-    resolution: {integrity: sha512-Fh7KoAa7FVVOojmyyX9ro7fBSR7mPG2cgfDbA877HM4IeJJtSZO+I/R3h/u6TB8wVP5J4pXPpTaRMSREyqCS3g==}
+  /rollup-plugin-visualizer/5.8.3:
+    resolution: {integrity: sha512-QGJk4Bqe4AOat5AjipOh8esZH1nck5X2KFpf4VytUdSUuuuSwvIQZjMGgjcxe/zXexltqaXp5Vx1V3LmnQH15Q==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
-      rollup: ^2.0.0
+      rollup: 2.x || 3.x
     peerDependenciesMeta:
       rollup:
         optional: true
