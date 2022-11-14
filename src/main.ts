@@ -1,31 +1,20 @@
-import {renderWithQiankun, qiankunWindow, type QiankunProps} from 'vite-plugin-qiankun/dist/helper'
 import './app.css'
 import App from './App.svelte'
 
-let app
+import OrchyBaseMfe from '@orchy-mfe/spa-adapter'
+import type {MicroFrontendProperties} from '@orchy-mfe/models'
+export class SvelteMfeTypeScript extends OrchyBaseMfe {
+  private app: App
+  async mount(microFrontendProperties: MicroFrontendProperties) {
+    this.app = new App({
+      target: this.getContainer(),
+      props: microFrontendProperties
+    })
+  }
 
-const retrieveContainer = (props?: QiankunProps) => (props?.container || document).querySelector('#app')
-
-const render = (props?: QiankunProps) => {
-  app = new App({
-    target: retrieveContainer(props),
-    props
-  })
+  async unmount() {
+    this.app.$destroy()
+  }
 }
 
-renderWithQiankun({
-  mount(props) {
-    render(props)
-  },
-  bootstrap() { },
-  unmount() {
-    app.$destroy()
-  },
-  update() {}
-})
-
-if (!qiankunWindow.__POWERED_BY_QIANKUN__) {
-  render()
-}
-
-export default app
+customElements.define('svelte-mfe-typescript', SvelteMfeTypeScript)
