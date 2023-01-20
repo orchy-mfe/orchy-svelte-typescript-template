@@ -19,7 +19,7 @@ specifiers:
   svelte: ^3.55.1
   svelte-check: ^3.0.2
   svelte-navigator: ^3.2.2
-  svelte-preprocess: ^5.0.0
+  svelte-preprocess: ^5.0.1
   tslib: ^2.4.1
   typescript: ^4.9.4
   vite: ^4.0.4
@@ -48,7 +48,7 @@ devDependencies:
   svelte: 3.55.1
   svelte-check: 3.0.2_ieqpii7ajuimomdppruwrxw6yq
   svelte-navigator: 3.2.2_atrrhq7vg4ekua4nnyrpuardle
-  svelte-preprocess: 5.0.0_axh7cgy75o26dnnuaoqpikfzcm
+  svelte-preprocess: 5.0.1_axh7cgy75o26dnnuaoqpikfzcm
   tslib: 2.4.1
   typescript: 4.9.4
   vite: 4.0.4
@@ -3123,14 +3123,14 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /sorcery/0.10.0:
-    resolution: {integrity: sha512-R5ocFmKZQFfSTstfOtHjJuAwbpGyf9qjQa1egyhvXSbM7emjrtLXtGdZsDJDABC85YBfVvrOiGWKSYXPKdvP1g==}
+  /sorcery/0.11.0:
+    resolution: {integrity: sha512-J69LQ22xrQB1cIFJhPfgtLuI6BpWRiWu1Y3vSsIwK/eAScqJxd/+CJlUuHQRdX2C9NGFamq+KqNywGgaThwfHw==}
     hasBin: true
     dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.14
       buffer-crc32: 0.2.13
       minimist: 1.2.6
       sander: 0.5.1
-      sourcemap-codec: 1.4.8
     dev: true
 
   /source-map-js/1.0.2:
@@ -3154,11 +3154,6 @@ packages:
   /source-map/0.7.4:
     resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}
     engines: {node: '>= 8'}
-    dev: true
-
-  /sourcemap-codec/1.4.8:
-    resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
-    deprecated: Please use @jridgewell/sourcemap-codec instead
     dev: true
 
   /stackback/0.0.2:
@@ -3260,7 +3255,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 3.55.1
-      svelte-preprocess: 5.0.0_axh7cgy75o26dnnuaoqpikfzcm
+      svelte-preprocess: 5.0.1_axh7cgy75o26dnnuaoqpikfzcm
       typescript: 4.9.4
     transitivePeerDependencies:
       - '@babel/core'
@@ -3294,8 +3289,8 @@ packages:
       - typescript
     dev: true
 
-  /svelte-preprocess/5.0.0_axh7cgy75o26dnnuaoqpikfzcm:
-    resolution: {integrity: sha512-q7lpa7i2FBu8Pa+G0MmuQQWETBwCKgsGmuq1Sf6n8q4uaG9ZLcLP0Y+etC6bF4sE6EbLxfiI38zV6RfPe3RSfg==}
+  /svelte-preprocess/5.0.1_axh7cgy75o26dnnuaoqpikfzcm:
+    resolution: {integrity: sha512-0HXyhCoc9rsW4zGOgtInylC6qj259E1hpFnJMJWTf+aIfeqh4O/QHT31KT2hvPEqQfdjmqBR/kO2JDkkciBLrQ==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
     peerDependencies:
@@ -3337,7 +3332,7 @@ packages:
       '@types/sass': 1.43.1
       detect-indent: 6.1.0
       magic-string: 0.27.0
-      sorcery: 0.10.0
+      sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 3.55.1
       typescript: 4.9.4
