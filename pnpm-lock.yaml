@@ -17,7 +17,7 @@ specifiers:
   rollup-plugin-visualizer: ^5.9.0
   rxjs: ^7.8.0
   svelte: ^3.55.1
-  svelte-check: ^3.0.2
+  svelte-check: ^3.0.3
   svelte-navigator: ^3.2.2
   svelte-preprocess: ^5.0.1
   tslib: ^2.4.1
@@ -46,7 +46,7 @@ devDependencies:
   jsdom: 21.1.0
   rollup-plugin-visualizer: 5.9.0
   svelte: 3.55.1
-  svelte-check: 3.0.2_ieqpii7ajuimomdppruwrxw6yq
+  svelte-check: 3.0.3_ieqpii7ajuimomdppruwrxw6yq
   svelte-navigator: 3.2.2_atrrhq7vg4ekua4nnyrpuardle
   svelte-preprocess: 5.0.1_axh7cgy75o26dnnuaoqpikfzcm
   tslib: 2.4.1
@@ -3347,8 +3347,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/3.0.2_ieqpii7ajuimomdppruwrxw6yq:
-    resolution: {integrity: sha512-DkhKhV0Jt0gh7q9DBB26+J2Vfb9y4/4JWxnbkXBZha7542LOhwvj3edJFjyJ+xjdaXyInZ+YRRYc3V6wytP2ew==}
+  /svelte-check/3.0.3_ieqpii7ajuimomdppruwrxw6yq:
+    resolution: {integrity: sha512-ByBFXo3bfHRGIsYEasHkdMhLkNleVfszX/Ns1oip58tPJlKdo5Ssr8kgVIuo5oq00hss8AIcdesuy0Xt0BcTvg==}
     hasBin: true
     peerDependencies:
       svelte: ^3.55.0
