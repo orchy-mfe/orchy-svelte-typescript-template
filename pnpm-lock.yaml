@@ -19,8 +19,8 @@ devDependencies:
     specifier: ^3.2.2
     version: 3.2.2(svelte@3.58.0)
   '@tsconfig/svelte':
-    specifier: ^3.0.0
-    version: 3.0.0
+    specifier: ^4.0.1
+    version: 4.0.1
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.57.1
     version: 5.57.1(@typescript-eslint/parser@5.57.1)(eslint@8.37.0)(typescript@5.0.4)
@@ -898,8 +898,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@tsconfig/svelte@3.0.0:
-    resolution: {integrity: sha512-pYrtLtOwku/7r1i9AMONsJMVYAtk3hzOfiGNekhtq5tYBGA7unMve8RvUclKLMT3PrihvJqUmzsRGh0RP84hKg==}
+  /@tsconfig/svelte@4.0.1:
+    resolution: {integrity: sha512-B+XlGpmuAQzJqDoBATNCvEPqQg0HkO7S8pM14QDI5NsmtymzRexQ1N+nX2H6RTtFbuFgaZD4I8AAi8voGg0GLg==}
     dev: true
 
   /@types/aria-query@4.2.2:
